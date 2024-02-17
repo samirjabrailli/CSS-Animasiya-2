@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+header {
+    background-color: #5BACFD;
+    margin:30px;
+    border-radius: 5px;
+    width: 70%;
+   
+    
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    padding: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+nav a{
+    color: antiquewhite;
+}
+.navbar{
+    padding: 20px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+.kicikdaire{
+    width: 15px;
+    height:15px;
+    border: 8px solid #03CFD3;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 300px;
+    
+}
+.kicikdaire1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #03CFD3;
+    top: 110px;
+    position: absolute;
+  
+}
+.boyukdaire{
+    width: 200px;
+    height: 200px;
+    border: 15px solid #03CFD3;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.eqreb{
+    width: 8px;
+    height:180px;
+    background-color: #03CFD3;
+    border-radius: 5px;
+    animation-name:saat;
+    animation-iteration-count:infinite;
+}
+@keyframes saat{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.yazi{
+    color: #03CFD3;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
